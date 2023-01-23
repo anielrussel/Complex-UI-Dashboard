@@ -1,0 +1,51 @@
+.top {
+    position: top;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 77%;
+    height: 4.5rem;
+    padding: 0 1.2rem 0 1.2rem;
+    right: 1.5rem;
+    background-color: transparent;
+    z-index: 3;
+}
+.navbar.active {
+    background-color: rgba(9, 9, 63, 0.9);
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+.navbar-text {
+    line-height: 5px;
+}
+.navbar-text p {
+    font-size: 14px;
+    color: rgb(209, 205, 205);
+}
+.navbar-text h1 {
+    font-size: 16px;
+    color: white;
+}
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-search input {
+    width: 14rem;
+    height: 2.2rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    background-color: rgba(7, 7, 53, 0.5);
+    margin-right: 1rem;
+}
+.navbar-search p {
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}

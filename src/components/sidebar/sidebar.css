@@ -1,0 +1,85 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    background-color: transparent;
+    padding: 2rem;
+    position: fixed;
+    height: 100vh;
+}
+.sidebar hr {
+    width: 100%;
+}
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.sidebar-logo h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.sidebar-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.sidebar-links a:hover,
+.sidebar-links a:focus {
+    border-radius: 1rem;
+    background-color: rgb(92, 92, 161);
+}
+.sidebar-links h1 {
+    font-size: 16px;
+}
+.sidebar-pro {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.sidebar-pro button {
+    width: 14rem;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background-color: rgb(95, 159, 184);
+    cursor: pointer;
+}
+.sidebar-docu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.sidebar-docu span {
+    font-size: 12px;
+}
+.sidebar-docu button {
+    width: 12rem;
+    padding: 10px;
+    background-color: rgba(2, 20, 43, .5);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1rem;
+    cursor: pointer;
+}

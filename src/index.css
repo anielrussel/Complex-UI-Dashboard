@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+  
+   
+}
+body {
+    font-family: var(--font-family);
+    
+    background:-moz-linear-gradient(90deg, rgba(1, 1, 43, 1) 27%, rgba(73, 37, 170, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(1, 1, 43, 1) 27%, rgba(73, 37, 170, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(1, 1, 43, 1) 27%, rgba(73, 37, 170, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4925AA', endColorstr='#01012B', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(1, 1, 43, 1) 27%, rgba(73, 37, 170, 1) 100%);
+    background:linear-gradient(90deg, rgba(1, 1, 43, 1) 27%, rgba(73, 37, 170, 1) 100%);
+    
+}

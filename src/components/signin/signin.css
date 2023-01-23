@@ -1,0 +1,132 @@
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-navbar {
+    display: flex;
+    justify-content: center;
+}
+.signin-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.signin-image img {
+    width: 100%;
+    height: 140vh;
+}
+.signin-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 140vh;
+    top: 0;
+    right: 0;
+    background-color: rgb(6, 8, 39);
+    z-index: -1;
+}
+.signin-login-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    line-height: 1.5rem;
+    width: 20rem;
+    text-align: center;
+}
+.signin-login-text h1 {
+    color: white;
+    font-size: 30px;
+}
+.signin-login-text p {
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+    font-weight: 500;
+}
+.signin-login-signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 31, 94);
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    padding: 2rem 4rem;
+}
+.signin-login-signin h1 {
+    color: white;
+    font-size: 18px;
+}
+.signin-login-signin p {
+    color: rgb(212, 209, 209);
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-signin-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.login-signin-input label {
+    color: white;
+    font-size: 16px;
+}
+.login-signin-input input {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: transparent;
+    width: 20rem;
+    padding: 15px 0 10px 10px;
+}
+.login-signin-switch {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.login-signin-switch p {
+    color: white;
+    font-size: 12px;
+}
+.login-signin-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.login-signin-button button {
+    padding: 15px;
+    width: 20rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(21, 21, 230);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+.login-signin-button p {
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+    font-weight: 400;
+}
+.login-signin-button span {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

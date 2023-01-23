@@ -1,0 +1,147 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.signup-image img {
+    width: 100%;
+    height: 140vh;
+}
+.signup-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 140vh;
+    top: 0;
+    right: 0;
+    background-color: rgb(6, 8, 39);
+    z-index: -1;
+}
+.signup-login-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    line-height: 1.5rem;
+    width: 20rem;
+    text-align: center;
+}
+.signup-login-text h1 {
+    color: white;
+    font-size: 30px;
+}
+.signup-login-text p {
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+    font-weight: 500;
+}
+.signup-login-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 31, 94);
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    padding: 2rem 4rem;
+}
+.signup-login-signup h1 {
+    color: white;
+    font-size: 18px;
+}
+.signup-login-signup p {
+    color: rgb(212, 209, 209);
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-signup-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.login-signup-social img {
+    width: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.login-signup-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.login-signup-input label {
+    color: white;
+    font-size: 16px;
+}
+.login-signup-input input {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: transparent;
+    width: 20rem;
+    padding: 15px 0 10px 10px;
+}
+.login-signup-switch {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.login-signup-switch p {
+    color: white;
+    font-size: 12px;
+}
+.login-signup-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.login-signup-button button {
+    padding: 15px;
+    width: 20rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(21, 21, 230);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+.login-signup-button p {
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+    font-weight: 400;
+}
+.login-signup-button span {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

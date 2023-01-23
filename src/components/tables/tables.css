@@ -1,0 +1,293 @@
+.tables {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    padding: 2rem 1rem 2rem 0;
+    gap: 1.5rem;
+}
+.tables-author,
+.tables-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 0 3rem 2rem;
+    border-radius: 1.5rem;
+
+    background:-moz-linear-gradient(106deg, rgba(27, 26, 73, 1) 0%, rgba(3, 3, 70, 1) 100%); 
+    background:-webkit-linear-gradient(106deg, rgba(27, 26, 73, 1) 0%, rgba(3, 3, 70, 1) 100%);
+    background:-o-linear-gradient(106deg, rgba(27, 26, 73, 1) 0%, rgba(3, 3, 70, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030346', endColorstr='#1B1A49', GradientType=0 );
+    background:-ms-linear-gradient(106deg, rgba(27, 26, 73, 1) 0%, rgba(3, 3, 70, 1) 100%);
+    background:linear-gradient(106deg, rgba(27, 26, 73, 1) 0%, rgba(3, 3, 70, 1) 100%);
+}
+.tables-author h1,
+.tables-project h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tables-author-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.tables-author-table img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.tables-author-table-row1,
+.tables-project-table-row1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7rem;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(167, 163, 163);
+    margin-top: 1rem;
+    border-bottom: 1px solid gray;
+}
+.tables-author-table-row1 p {
+    padding-right: 4rem;
+}
+.tables-author-table-row1 span {
+    padding-right: 16.5rem;
+}
+.tables-author-table-row2,
+.tables-author-table-row3,
+.tables-author-table-row4,
+.tables-author-table-row5,
+.tables-author-table-row6,
+.tables-author-table-row7 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7rem;
+    padding: 8px 0;
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+}
+.tables-author-table-row2 p,
+.tables-author-table-row3 p,
+.tables-author-table-row4 p,
+.tables-author-table-row5 p,
+.tables-author-table-row6 p,
+.tables-author-table-row7 p {
+    color: white;
+    font-weight: 500;
+}
+.tables-author-table-row2 span,
+.tables-author-table-row3 span,
+.tables-author-table-row4 span,
+.tables-author-table-row5 span,
+.tables-author-table-row6 span,
+.tables-author-table-row7 span {
+    color: rgb(167, 163, 163);
+}
+.author-row2-image {
+    display: flex;
+    padding-right: 7rem;
+    gap: 1rem;
+}
+.author-row3-image,
+.author-row7-image {
+    display: flex;
+    padding-right: 7.8rem;
+    gap: 1rem;
+}
+.author-row4-image {
+    display: flex;
+    padding-right: 7.2rem;
+    gap: 1rem;
+}
+.author-row5-image {
+    display: flex;
+    padding-right: 6.2rem;
+    gap: 1rem;
+}
+.author-row6-image {
+    display: flex;
+    padding-right: 7.4rem;
+    gap: 1rem;
+}
+.author-row2-image-text,
+.author-row3-image-text,
+.author-row4-image-text,
+.author-row5-image-text,
+.author-row6-image-text,
+.author-row7-image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 8px;
+}
+.author-row2-image-text h1,
+.author-row3-image-text h1,
+.author-row4-image-text h1,
+.author-row5-image-text h1,
+.author-row6-image-text h1,
+.author-row7-image-text h1 {
+    font-size: 14px;
+}
+.author-row2-image-text span,
+.author-row3-image-text span,
+.author-row4-image-text span,
+.author-row5-image-text span,
+.author-row6-image-text span,
+.author-row7-image-text span  {
+    font-size: 11px;
+}
+.author-row2-function,
+.author-row3-function,
+.author-row5-function,
+.author-row7-function  {
+    line-height: 8px;
+    padding-right: 2.8rem;
+}
+.author-row4-function {
+    line-height: 8px;
+    padding-right: 4rem;
+}
+.author-row6-function {
+    line-height: 8px;
+    padding-right: 4.2rem;
+}
+.author-row2-status,
+.author-row3-status,
+.author-row4-status,
+.author-row5-status,
+.author-row6-status,
+.author-row7-status   {
+    padding-right: 3.2rem;
+}
+.author-row2-status p,
+.author-row4-status p,
+.author-row5-status p {
+    padding: 5px 8px;
+    background-color: green;
+    border-radius: 8px;
+}
+.author-row3-status p,
+.author-row6-status p,
+.author-row7-status p {
+    padding: 5px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.author-row2-employed,
+.author-row5-employed,
+.author-row6-employed,
+.author-row7-employed {
+    padding-right: 4.4rem;
+}
+.author-row3-employed,
+.author-row4-employed {
+    padding-right: 4.8rem;
+}
+.author-row2-action,
+.author-row3-action,
+.author-row4-action,
+.author-row5-action,
+.author-row6-action,
+.author-row7-action  {
+    padding-right: 5.4rem;
+}
+.tables-project-table-row1 span {
+    padding-right: 16.2rem;
+}
+.tables-project-table-row1 p {
+    padding-right: 4rem;
+}
+.tables-project-table-row2 h1,
+.tables-project-table-row3 h1,
+.tables-project-table-row4 h1,
+.tables-project-table-row5 h1,
+.tables-project-table-row6 h1 {
+    color: white;
+    font-size: 14px;
+}
+.project-row2-chakra,
+.project-row3-addprogress,
+.project-row4-fix,
+.project-row5-launch,
+.project-row6-addnew {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10rem;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.chakra-project {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 2.5rem;
+}
+.addprogress-project {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 4.8rem;
+}
+.launch-project {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 3.2rem;
+}
+.addnew-project {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+.fix-project {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 5.3rem;
+}
+.chakra-budget {
+    padding-right: 5px;
+}
+.addprogress-budget,
+.fix-budget {
+    padding-right: 10px;
+}
+.launch-budget{
+    padding-right: 3px;
+}
+.addnew-budget {
+    padding-right: 12px;
+}
+.addprogress-status,
+.addnew-status {
+    padding-right: 1.5rem;
+}
+.chakra-completion {
+    padding-right: 3.6rem;
+}
+.addprogress-completion,
+.addnew-completion {
+    padding-right: 3.2rem;
+}
+.fix-completion {
+    margin-left: -5px;
+    padding-right: 3.4rem;
+}
+.launch-completion {
+    margin-left: -5px;
+    padding-right: 3.8rem;
+}

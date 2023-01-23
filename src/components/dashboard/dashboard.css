@@ -1,0 +1,589 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    padding: 2rem 1rem 2rem 0;
+    gap: 1.5rem;
+}
+.first-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.todays-money,
+.todays-users,
+.new-client,
+.total-sales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    line-height: 10px;
+    border-radius: 1.5rem;
+    gap: 7rem;
+    background-color: rgb(6, 8, 39);
+}
+.todays-money-text p,
+.todays-users-text p,
+.new-client-text p,
+.total-sales-text p {
+    color: rgb(212, 209, 209);
+    font-size: 12px;
+}
+.todays-money-text h1,
+.todays-users-text h1,
+.new-client-text h1,
+.total-sales-text h1 {
+    color: white;
+    font-size: 22px;
+}
+.todays-money-text span,
+.todays-users-text span,
+.total-sales-text span {
+    color: rgb(5, 190, 5);
+    font-size: 16px;
+}
+.new-client-text span {
+    color: red;
+    font-size: 16px
+}
+.second-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.welcome p {
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+}
+.welcome h1 {
+    color: white;
+    font-weight: 600;
+    margin-top: -1rem;
+}
+.welcome span {
+    color: rgb(212, 209, 209);
+}
+.welcome h2 {
+    color: white;
+    font-size: 14px;
+    margin-top: 10rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.satisfaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2.5rem;
+    line-height: 4px;
+    border-radius: 1.5rem;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.satisfaction h1 {
+    font-size: 20px;
+    color:  white;
+    font-weight: 600;
+}
+.satisfaction p {
+    font-size: 14px;
+    color: rgb(212, 209, 209);
+}
+.circle {
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+.circle img {
+    width: 2rem;
+    background-color:rgb(212, 209, 209);
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -2rem;
+}
+.percent {
+    margin: -5rem 0 0 0;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1rem;
+    background-color: rgb(6, 8, 39);
+    z-index: 2;
+}
+.percent-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.percent-text h1 {
+    font-size: 30px;
+}
+.referral {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem;
+    border-radius: 1.5rem;
+    gap: 3.5rem;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.referral-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.referral-text h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.referral-progress {
+    width: 170px;
+    height: 170px;
+}
+.referral-second {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+}
+.referral-second-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.referral-invited,
+.referral-bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    padding: 0 1rem 1rem 1rem;
+    border-radius: 1rem;
+    background-color: rgb(6, 8, 39);
+}
+.referral-invited p,
+.referral-bonus p {
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+}
+.referral-invited span,
+.referral-bonus span {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.progress-text {
+    text-align: center;
+    line-height: 15px;
+}
+.progress-text p {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(212, 209, 209);
+}
+.progress-text span {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.third-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.third-row-line {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 40rem;
+    height: auto;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.third-row-line-text,
+.third-row-bar-text {
+    line-height: 1rem;
+}
+.third-row-line-text h1,
+.third-row-bar-text h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.third-row-line-text p,
+.third-row-bar-text p {
+    color: rgb(5, 190, 5);
+    font-size: 14px;
+}
+.third-row-line-text span,
+.third-row-bar-text span {
+    color: rgb(212, 209, 209);
+}
+.third-row-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 30rem;
+    height: auto;
+    gap: 1rem;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.third-row-bar-chart {
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgb(6, 8, 39);
+}
+.third-row-bar-data {
+    display: flex;
+    color: rgb(212, 209, 209);
+    gap: 4rem;
+    font-size: 14px;
+}
+.third-row-bar-data h1 {
+    color: white;
+    font-size: 18px;
+}
+.bar-users-image,
+.bar-clicks-image,
+.bar-sales-image,
+.bar-items-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.fourth-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.fourth-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem 2rem 5rem 2rem;
+    border-radius: 1.5rem;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.fourth-projects h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fourth-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+    gap: 10px;
+}
+.fourth-check p {
+    font-size: 14px;
+    color:rgb(212, 209, 209);
+    font-weight: 800;
+}
+.fourth-check span {
+    font-weight: 500;
+}
+.fourth-table {
+    display: flex;
+    flex-direction: column;
+}
+.table-row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(212, 209, 209);
+    font-size: 11px;
+    font-weight: 600;
+    gap: 8rem;
+    border-bottom: 1px solid gray;
+}
+.table-row1 span {
+    padding-right: 6rem;
+}
+.table-row2,
+.table-row3,
+.table-row4,
+.table-row5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 5rem;
+    border-bottom: 1px solid gray;
+}
+.row2-xd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.row2-members {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.romina,
+.ryan,
+.alexander,
+.jessica {
+    width: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.row2-completion {
+    line-height: 4px;
+}
+.row2-completion-progress,
+.row3-completion-progress,
+.row4-completion-progress,
+.row5-completion-progress,
+.row6-completion-progress,
+.row7-completion-progress   {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 7rem;
+    height: 5px;
+    border-radius: 5px;
+    background-color: gray;
+}
+.row2-completion-progress-data {
+    width: 4rem;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #0066ff;
+}
+.row3-atlassian {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-right: 2.2rem;
+} 
+.row3-members {
+    padding-right: 3rem;
+}
+.row3-budget {
+    padding-right: 5px
+}
+.row3-completion-progress-data {
+    width: 1rem;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #0066ff;
+}
+.row4-slack {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-right: 2.8rem;
+}
+.row4-members {
+    padding-right: 3rem;
+}
+.row4-budget {
+    padding-right: 5px;
+}
+.row4-completion-progress-data,
+.row5-completion-progress-data {
+    width: 7rem;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #0066ff;
+}
+.row5-spotify {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-right: 10px;
+}
+.table-row6,
+.table-row7  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 4.5rem;
+    border-bottom: 1px solid gray;
+}
+.row6-jira,
+.row7-figma {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-right: -1rem;
+}
+.row6-members {
+    padding-right: 5rem;
+}
+.row6-budget {
+    padding-right: 1.8rem;
+}
+.row6-completion-progress-data {
+    width: 2rem;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #0066ff;
+}
+.table-row7 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 4rem;
+    border-bottom: 1px solid gray;
+}
+.row7-members {
+    padding-right: 4rem;
+}
+.row7-budget {
+    padding-right: 1.5rem;
+}
+.row7-completion-progress-data {
+    width: 3rem;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #0066ff;
+}
+.fourth-overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem 8.5rem 2rem 2rem;
+    border-radius: 1.5rem;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.overview-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.overview-text h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.overview-text-check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -1.5rem;
+    gap: 10px;
+}
+.overview-text-check  p {
+    font-size: 14px;
+    color:rgb(212, 209, 209);
+    font-weight: 800;
+}
+.overview-text-check  span {
+    font-weight: 500;
+}
+.overview-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.overview-data p {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.overview-data span {
+    color: rgb(212, 209, 209);
+    font-size: 12px;
+}
+.overview-data-design,
+.overview-data-neworder1,
+.overview-data-server,
+.overview-data-newcard1,
+.overview-data-newcard2,
+.overview-data-neworder2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    line-height: 8px;
+}
+.dashboard-signature {
+    color: rgb(212, 209, 209);
+    font-weight: 400;
+    font-size: 12px;
+}
+.dashboard-signature span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}

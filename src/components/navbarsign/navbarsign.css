@@ -1,0 +1,41 @@
+.navbarsign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    width: 60%;
+    border-radius: 1rem;
+    position: fixed;
+    top: 1.5rem;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+
+    background:-moz-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352B7B', endColorstr='#04043F', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+    background:linear-gradient(90deg, rgba(4, 4, 63, 1) 0%, rgba(53, 43, 123, 1) 100%);
+}
+.navbarsign-logo h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbarsign-links {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.navbarsign-button button {
+    padding: 10px 30px;
+    background-color: rgb(21, 21, 230);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
